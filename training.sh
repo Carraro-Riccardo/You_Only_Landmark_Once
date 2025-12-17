@@ -1,0 +1,26 @@
+python ./src/train_script.py \
+   --data_path DATASET_PATH \
+   --heat_h5 H5_FILE_WITH_HEATMAPS \
+   --out_dir_models OUT_DIR_MODELS \
+   --out_dir_figures OUT_DIR_FIGURES \
+   --batch_size 8 \
+   --epochs 200 \
+   --seed 42 \
+   --device "cuda" \
+   --pin_memory \
+   --deterministic \
+   --name "MODEL_NAME" \
+   --use_bicubic \
+   --base_filters 48 \
+   --refine_blocks 5 \
+   --lr_g 0.0001 \
+   --use_perc \
+   --use_attn  \
+   --use_lpips \
+   --w_attn 2 \
+   --w_perc 0.01 \
+   --w_lpips 0.15 \
+   --early_patience 15 \
+   --early_min_delta 0.0001 \
+   --save_every 1 \
+   --viz_every 5 \
