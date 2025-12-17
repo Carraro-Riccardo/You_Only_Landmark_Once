@@ -1,0 +1,1 @@
+Heatmaps file downloadable at: https://huggingface.co/datasets/RiccardoCarraro/heatmaps/blob/main/heatmaps_200k_nocomp.h5
